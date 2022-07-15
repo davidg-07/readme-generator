@@ -14,8 +14,14 @@ function init() {
   .prompt([
     /* Pass your questions in here */
     {type: 'list', name: 'license', message: 'choose your license', choices: ['option1', 'option2', 'option3', 'MIT']},
-    {type: 'input', name: 'email', message: 'what is your email address'},
-    {type: 'input', name:'project', message: 'what is your project name?'},
+    {type: 'input', name: 'email', message: 'what is your email address?'},
+    {type: 'input', name: 'project', message: 'what is your project name?'},
+    {type: 'input', name: 'github', message: 'What is your Github username?'},
+    {type: 'input', name: 'descripton', message: 'Please write a short description of your project.'},
+    {type: 'input', name: 'What are the steps required to install your project?'},
+    {type: 'input', name: 'usage', message: 'How do you use this app?'},
+    {type: 'input', name: 'test', message: 'What command should be run to run tests?'},
+    {type: 'input', name: 'Contributers', message: 'What does the user need to know about contributing to the repo?'}
 
   ])
   .then((answers) => {
@@ -41,7 +47,9 @@ function generateFile(data) {
 }
 
 function convertToMarkDown(data) {
-  return `# ${data.project}
+  return `# Project 
+  
+  ${data.project}
 
   ## Licenses
   
@@ -49,5 +57,7 @@ function convertToMarkDown(data) {
   
   ## Email
   
-  ${data.email}`;
+  ${data.email}
+  
+  ## `;
 }
