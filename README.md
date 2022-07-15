@@ -41,9 +41,6 @@ THEN I am taken to the corresponding section of the README
   <img src=""><br>
   Or view link here - [Screencastify]()
 
-  ## License 
-  This project is license under MIT
-
   ## Contributing 
   Contributors should read the installation section. 
 
