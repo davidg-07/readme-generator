@@ -39,7 +39,7 @@ THEN I am taken to the corresponding section of the README
   ## Usage 
   Use inquirer from your command line to answer questions about your project.
   <img src=""><br>
-  Or view link here - [Screencastify]()
+  Or view link here - [Screencastify](https://drive.google.com/file/d/1nur22DyG_DfViidAk-0IAfzQH6VgCIEZ/view)
 
   ## Contributing 
   Contributors should read the installation section. 
