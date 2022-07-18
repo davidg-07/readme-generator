@@ -38,7 +38,7 @@ THEN I am taken to the corresponding section of the README
 
   ## Usage 
   Use inquirer from your command line to answer questions about your project.
-  <img src=""><br>
+  <img src="untitled_jul 17, 2022 9_53 PM.gif"><br>
   Or view link here - [Screencastify](https://drive.google.com/file/d/1nur22DyG_DfViidAk-0IAfzQH6VgCIEZ/view)
 
   ## Contributing 
